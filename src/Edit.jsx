@@ -62,7 +62,7 @@ const Edit = () => {
         const dateS = dateTimeS.toISOString().split("T")[0];
         const timeS = dateTimeS.toTimeString().split(" ")[0];
 
-        const dateTimeE = new Date(userData.startTime);
+        const dateTimeE = new Date(userData.endTime);
 
         const dateE = dateTimeE.toISOString().split("T")[0];
         const timeE = dateTimeE.toTimeString().split(" ")[0];
